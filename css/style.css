@@ -297,15 +297,17 @@ li a{
  line-height: 1.2; 
 }
 .categories-content{
-  display:flex;
+  display:grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   align-items: center;
   gap: 1.5rem;
   cursor: pointer;
   text-align: center;
-  margin-top: 4rem;
-  margin-left: 6rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  
 }
+
 /*
 
 */
@@ -330,11 +332,13 @@ li a{
   line-height: 1.3;
   transition: all .40s ease;
   color: var(--second-color);
+  padding-top: 22px;
 }
 .box p{
   font-size: var(--p-font);
   color: var(--second-color);
   font-weight: 500;
+  padding-bottom: 25px;
 }
 .main-btn{
   text-align: center;
@@ -352,6 +356,12 @@ li a{
 }
 .btn:hover{
   transform: scale(0.9) translateY(-5px);
+}
+#clickbtn{
+  display: inline-block;
+  padding: 6px 20px;
+  transition: none;
+  transform: none;
 }
 #cor{
   height: 230px;
@@ -641,4 +651,8 @@ li a{
 }
 .center-text{
   margin-top:90px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
