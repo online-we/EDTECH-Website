@@ -139,10 +139,11 @@ section{
   background-color: #ffffff;
   background-size: cover;
   background-position: center;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   align-items: center;
+  margin-left: 2rem;
 
 }
 .home-text{
