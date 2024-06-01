@@ -312,9 +312,6 @@ li a{
 
 */
 .box{
-  /* display: flex;
-  align-items: center;
-  gap: 1.8rem; */
   border: 1px solid #685f78;
   border-radius: 20px;
   padding: 25px 60px;
