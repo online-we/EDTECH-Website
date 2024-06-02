@@ -225,9 +225,11 @@ header.sticky{
 .container{
   padding: 70px 13% ;
   display: flex;
-  gap: 1.5rem;
+  gap: 1.2rem;
   align-items: center;
   cursor: pointer;
+  width: px;
+  
 }
 
 .container-inner{
@@ -263,8 +265,8 @@ li a{
   padding: 30px 30px;
   box-shadow: -11.729px -11.729px 30px rgb(234, 173, 213);
   transition: all .40s ease;
-  height: 275px;
-  margin-left: 4rem;
+  height: 285px;
+  margin-left: 5rem;
 }
 .container-inner:hover{
     transform: translateY(-15px);
@@ -383,21 +385,33 @@ li a{
 }
 
 .courses-content{
-  /* display: grid; */
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, auto)); */
-  /* align-items: center; */
-  /* gap: 2rem; */
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  align-items: center;
+  gap: 1.5rem;
   cursor: pointer;
-  margin: 0;
+  text-align: center;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer; */
+  /* margin: 0;
   margin-top: 4rem;
   padding: 0;
   border-radius: 15px;
 
-  display: flex;
+  display: grid;
   justify-content: center;
   flex-wrap: wrap;
   width: 100vw;
-  gap: 2rem;
+  gap: 2rem; */
 
 }
 .row{
