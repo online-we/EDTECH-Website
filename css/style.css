@@ -388,7 +388,7 @@ li a{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
   cursor: pointer;
   text-align: center;
   margin-top: 3rem;
