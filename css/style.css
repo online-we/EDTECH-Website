@@ -377,11 +377,11 @@ li a{
 
 .courses{
   width: 100vw;
-  padding: 0;
+  padding: vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .courses-content{
