@@ -712,7 +712,7 @@ body{
   color: rgb(237, 26, 159);
   font-size: 40px;
   margin-bottom: 5px;
-  margin-left: 6vw;
+  margin-left: 4vw;
 }
 .contact-left-title hr{
   border: none;
@@ -722,7 +722,7 @@ body{
   border-radius: 10px;
   margin-bottom: 20px;
   padding-left: vw;
-  margin-left: 8vw;
+  margin-left: 6vw;
 }
 .contact-inputs{
   width: 400px;
