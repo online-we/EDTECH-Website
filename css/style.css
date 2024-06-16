@@ -699,7 +699,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-left: 7vw;
+  margin-left: 3vw;
 }
 .contact-left{
   display: flex;
@@ -722,7 +722,7 @@ body{
   border-radius: 10px;
   margin-bottom: 20px;
   padding-left: vw;
-  margin-left: 9vw;
+  margin-left: 8vw;
 }
 .contact-inputs{
   width: 400px;
