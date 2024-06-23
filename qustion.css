@@ -57,7 +57,7 @@
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 30px;
-    line-height: 0.5;
+    line-height: 1.2;
     transition: all .40s ease;
     color: var(--second-color);
     padding-top: px;
