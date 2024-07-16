@@ -119,14 +119,15 @@ header{
 }
 
 .home-img img{
-  width: 800px;
+  width: 500px;
   height: auto;
   
 }
 
 .home-img{
   overflow-x: hidden;
-  width: 25vw;
+  width: 55vw;
+  margin-top: 7vw;
 }
 
 section{
