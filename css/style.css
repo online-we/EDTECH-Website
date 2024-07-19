@@ -121,6 +121,7 @@ header{
 .home-img img{
   width: 500px;
   height: auto;
+  padding-right: 15vw;
   
 }
 
@@ -144,7 +145,7 @@ section{
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   align-items: center;
-  margin-left: 2rem;
+  margin-left: 1rem;
 
 }
 .home-text{
@@ -170,6 +171,7 @@ section{
   width: 100%;
   max-width: 460px;
   position: relative;
+  margin-right: 45vw;
 }
 .latter form input:first-child{
   display: inline-block;
