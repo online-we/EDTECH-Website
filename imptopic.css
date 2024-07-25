@@ -79,3 +79,8 @@ svg{
         transform: translateY(0px);
     }
 }
+
+#impor{
+    outline-style: none;
+    list-style: none;
+}
