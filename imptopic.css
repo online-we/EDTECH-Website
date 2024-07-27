@@ -52,12 +52,12 @@ section {
 
 .answer p{
     padding-top: 1rem;
-    line-height: 1.1;
+    line-height: 1;
     font-size: 1.1rem;
 }
 
 .faq.active .answer{
-    max-height: 400px;
+    max-height: 900px;
     animation: fade 0.4s ease-in-out;
 }
 
