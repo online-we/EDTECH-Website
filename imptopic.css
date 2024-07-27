@@ -57,7 +57,7 @@ section {
 }
 
 .faq.active .answer{
-    max-height: 900px;
+    max-height: 1200px;
     animation: fade 0.4s ease-in-out;
 }
 
