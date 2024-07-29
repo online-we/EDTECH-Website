@@ -50,6 +50,7 @@
     padding: 20px 30px;
     box-shadow: -11.729px -11.729px 30px rgb(234, 173, 213);
     transition: all .40s ease;
+    margin: 7vw;
     
   }
   .box:hover{
