@@ -750,7 +750,7 @@ body{
 }
 .contact-left-title h2{
   font-weight: 600;
-  color: rgb(237, 26, 159);
+  color: #4000ff;
   font-size: 40px;
   margin-bottom: 5px;
   margin-left: 4vw;
@@ -759,7 +759,7 @@ body{
   border: none;
   width: 120px;
   height: 5px;
-  background-color: rgb(237, 26, 159);
+  background-color: #4000ff;
   border-radius: 10px;
   margin-bottom: 20px;
   padding-left: vw;
@@ -769,7 +769,7 @@ body{
   width: 400px;
   height: 50px;
   border: none;
-  outline:2px solid rgb(237, 26, 159);
+  outline:2px solid #4000ff;
   padding-left: 25px;
   font-weight: 500;
   color: rgb(1, 4, 18);
@@ -790,7 +790,7 @@ body{
   gap: 10px;
   border: none;
   border-radius: 50px;
-  background-color: rgb(237, 26, 159) ;
+  background-color: #4000ff ;
   cursor: pointer;
 }
 @media (max-width:800px){
