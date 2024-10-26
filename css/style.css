@@ -460,7 +460,7 @@ li a{
   width: 80vw;
   padding: 12px 5px 10px 8px;
   border-radius: 20px;
-  box-shadow: 0px 5px 40px rgb(234, 173, 213);
+  box-shadow: -1.729px -1.729px 5px #4000ff;
   transition: all .40s ease;
   display: flex;
   flex-direction: column;
