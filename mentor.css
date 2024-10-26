@@ -2,8 +2,8 @@
 :root{
   --bg-color: #ffffff;
   --text-color: #2d008f;
-  --second-color: rgb(237, 26, 159)#685f78;
-  --main-color: rgb(237, 26, 159);
+  --second-color:#4000ff#685f78;
+  --main-color: #4000ff;
   --big-font: 3.8rem;
   --h2-font: 2.6rem;
   --p-font: 1.1rem;

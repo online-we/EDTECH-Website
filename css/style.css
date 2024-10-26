@@ -50,8 +50,8 @@
 :root{
     --bg-color: #ffffff;
     --text-color: #2d008f;
-    --second-color: rgb(237, 26, 159)#685f78;
-    --main-color: rgb(237, 26, 159);
+    --second-color: #4000ff#685f78;
+    --main-color: #4000ff;
     --big-font: 3.8rem;
     --h2-font: 2.6rem;
     --p-font: 1.1rem;
@@ -94,7 +94,7 @@ header{
     transition: all 0.40s ease;
 }
 .navbar a:hover{
-    color:  rgb(237, 26, 159);
+    color:  #4000ff;
 }
 .header-icon{
     display: flex;
@@ -103,7 +103,7 @@ header{
 .header-icon i{
     margin-left: 10px;
     font-size: 20px;
-    color: rgb(237, 26, 159);
+    color: #4000ff;
     transition: all 0.40s ease;
     margin-right: 15px;
 }
@@ -112,7 +112,7 @@ header{
 
 }
 #menu-icon{
-    font-size: 34px;color: rgb(237, 26, 159);
+    font-size: 34px;color: #4000ff;
     z-index: 10001;
     cursor: pointer;
     display: none;
@@ -153,7 +153,7 @@ section{
   height: 100px;
 }
 .home-text h1{
-  color:  rgb(237, 26, 159);
+  color:  #4000ff;
   margin: 15px 0 15px;
   font-size: var(--big-font);
 }
@@ -179,7 +179,7 @@ section{
   outline: none;
   padding: 16px 140px 16px 15px;
   border: 2px solid;
-  border-color: rgb(237, 26, 159);
+  border-color: #4000ff;
   border-radius: 30px;
 }
 .latter form input:last-child{
@@ -216,7 +216,7 @@ section{
   width: 40px;
 }
 header.sticky{
-  background: rgb(234, 173, 213);
+  background: #c0b3e8;
   padding: 12px 13px;
   box-shadow: 0px 4px 15px rgb(0 0 0 /8%);
 }
@@ -357,11 +357,11 @@ li a{
 
 */
 .box{
-  border: 1px solid #685f78;
+  border: 1px solid #4000ff;
   border-radius: 20px;
   padding: 25px 60px;
   padding: 20px 30px;
-  box-shadow: -11.729px -11.729px 30px rgb(234, 173, 213);
+  box-shadow: -1.72px -1.72px 5px #4000ff;
   transition: all .40s ease;
 }
 .box:hover{
