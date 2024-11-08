@@ -132,6 +132,23 @@ h2{
 .box1 a{
   color:rgb(211, 221, 227);
 }
+.box1 li a:hover{
+  background-color: #090e0d;
+
+}
+
+.features .box1{
+  font-size: small;
+}
+.features h2{
+  font-size: medium;
+}
+#comp h2{
+  font-size: medium;
+}
+#comp .box1{
+  font-size: small;
+}
 .footer-bottom{
   text-align: center;
   color: rgb(233, 240, 240);
