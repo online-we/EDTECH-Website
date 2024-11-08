@@ -152,7 +152,8 @@ h2{
 .footer-bottom{
   text-align: center;
   color: rgb(233, 240, 240);
-  padding-top: 50px;
+  /* padding-top: 50px; */
+  margin-top: 120px;
 }
 .footer-left p{
   padding-right: 20%;
@@ -285,6 +286,7 @@ section{
   color:  #148f77;
   margin: 15px 0 15px;
   font-size: var(--big-font);
+  line-height: 70px;
 }
 .home-text h6{
   font-size: 18px;
@@ -355,10 +357,13 @@ header.sticky{
   margin-bottom: 12px;
 }
 #img13{
-  height: 310px;
-  width: 310px;
+  height: 100px;
+  width: 200px;
   
   margin-right: 120px;
+}
+.footer-left p{
+  font-size: 14px;
 }
 .container{
   padding: 70px 13% ;
