@@ -566,10 +566,10 @@ li a{
 }
 
 .courses-content{
-  display:grid;
+  display:flex;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-  align-items: center;
-  gap: 3rem;
+  /* align-items: center; */
+  gap: 2rem;
   cursor: pointer;
   text-align: center;
   margin-top: 3rem;
