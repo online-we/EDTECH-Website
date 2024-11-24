@@ -567,6 +567,8 @@ li a{
 
 .courses-content{
   display:flex;
+  flex-wrap: wrap;
+  align-content:flex-start;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   /* align-items: center; */
   gap: 2rem;
