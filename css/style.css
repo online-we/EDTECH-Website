@@ -81,6 +81,7 @@ main{
   text-transform: uppercase;
   font-weight: bold;
 } 
+
 footer{
   display: -webkit-flex;
   display: -moz-flex;
@@ -528,24 +529,26 @@ li a{
 }
 .btn{
   display: inline-block;
-  padding: 16px 30px;
+  padding: 10px 30px;
   font-size: var(--p-font);
   font-weight: 700;
   background: var(--main-color);
   color: var(--bg-color);
-  border-radius: 30px;
+  border-radius: 20px;
   transition: all .40s ease;
   
 }
 .btn:hover{
   transform: scale(0.9) translateY(-5px);
 }
-#clickbtn{
+#clickbtn {
   display: inline-block;
-  padding: 6px 20px;
+  padding:5px 20px;
   transition: none;
   transform: none;
-  
+}
+#clickbtn h3{
+  margin: 20px;
 }
 li a{
   text-decoration: none;
@@ -598,15 +601,17 @@ li a{
 
 }
 .row{
-  /* background: rgb(234, 173, 213); */
-  width: 80vw;
-  padding: 12px 5px 10px 8px;
+  background: rgb(223, 219, 222);
+  width: 100vw;
+  padding: 10px 50px 5px 50px;
   border-radius: 20px;
   box-shadow: -1.729px -1.729px 5px #148f77;
   transition: all .40s ease;
   display: flex;
+  
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .row:hover{
   transform: translateY(-15px);
@@ -618,7 +623,7 @@ li a{
   border-radius: 15px 15px 0px 0px;
 }
 .courses-text{
-  padding: 35px 20px;
+  padding: 5px 2px;
 }
 .courses-text h5{
   color: var(--main-color);
@@ -626,10 +631,10 @@ li a{
   font-weight: 700;
 }
 .courses-text h3{
-  font-size: 24px;
+  font-size: 17px;
   font-weight: 700;
-  line-height: 34px;
-  margin: 15px 0 15px;
+  line-height: 24px;
+  margin: 15px 0 10px;
   transition: all .40s ease;
 }
 .courses-text h3:hover{
