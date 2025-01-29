@@ -2,20 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="web-icon" href="weblogo2.png">
-    <title>passvitian</title>
-    <!-- custom css link  -->
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="web-icon" href="weblogo2.png">
+  <title>PassVitian</title>
+  <!-- custom css link  -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
 
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <!-- Boxicons CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
 </head>
+
 
 <body>
 <div class="root">
@@ -26,14 +32,9 @@
         </a>
         <ul class="navbar">
             <li><a href="#home">Home</a></li>
-            <li><a href="#courses">Video-soln</a></li>
-            <li><a href="#categories">Papers</a></li>
-            <!-- <li><a href="imptopic.html">Must-do-Topic</a></li> -->
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-            <!-- <li><a href="#mte">Mid-term</a></li>
-            <li><a href="#tee">Term-end</a></li>  -->
-            <!-- remove '#tee' and paste the link that you want to go after click Term-end at navbar -->
+            <li><a href="iitjee.html">IITjee</a></li>
+            
+            
             
         </ul>
         <div class="header-icon">
@@ -43,172 +44,129 @@
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
-    <!-- starting home section design -->
-    <section class="home" id="home">
-        <div class="home-text">
-            <h3>To make you PASS is our job </h3>
-            <h1>No Fear once you connect here</h1>
-            <div class="latter">
-                <form>
-                    <input type="course" placeholder="Type Course Title or Course Code" required />
-                    <input type="submit" value="search now" required />
-                </form>
-            </div>
+
+<!-- updated home section -->
+    <section class="home-section" id="home">
+        <div class="home-content">
+          <h1>Unlock Exposure</h1>
+          <p>No one is Perfect at initial, we need to make them Perfect and Best</p>
+          <div class="button">
+
+            <!-- <form action="#" method="get">
+              <button class="explore-btn">Clear backlogs</button>
+              <button class="explore-btn">Improve CGPA</button>
+            </form> -->
+
+            <button class="btns find-btn">Clear Backlogs</button>
+            <button class="btns post-btn">Improve CGPA</button>
+          </div>
+          <div class="categorie">
+            <div class="category">Human Resources</div>
+            <div class="category">Software Development</div>
+            <div class="category">Marketing</div>
+            <div class="category">Operations</div>
+            <div class="category">Finance</div>
+          </div>
         </div>
-
-        <div class="home-img">
-            <img src="./css/hd-home3.png" />
-        </div>
-    </section>
-
-
-    
-   
-    <!-- start categories section  -->
-    <section class="categories" id="categories">
-        <div class="center-text">
-            <h5>Papers</h5>
-            <h2> All subject previous paper</h2>
-
-        </div>
-        <div class="categories-content">
-            <div class="box">
-                <img src="./css/cat1.png" alt="" id="catimg">
-                <h3><a>ABC</a></h3>
-                <p>ALL PAPERS</p>
-                <p><a href="papers.html" class="btn" id="clickbtn">Click now</a></p>
-
-
-            
-            
-
-
-        </div>
-        <!-- <div class="main-btn">
-            <a href="#" class="btn"> All categories </a>
-
+        <!-- <div class="home-image">
+          <img src="./css/fronc2.png" alt="Student Image" />
         </div> -->
-
-    </section>
-    <!-- start course section  -->
-    <section class="courses" id="courses">
-        <div class="center-text">
-            <h5>Courses</h5>
-            <h2>Explore our popular courses</h2>
-
-        </div>
-        <div class="courses-content">
-            <div class="row">
-                <!-- <img src="" alt="" id="cor"> -->
-                <div class="courses-text">
-                    <h5>FREE</h5>
-                    <h3>Engineering physics </h3>
-                    <h3><a href="vidsoln.html" class="btn" id="clickbtn">solution</a></h3>
-                    <!-- <a href="https://drive.google.com/file/d/1SGPrHZyDPwheM_vcepXsKvOifdY3Z-h4/view">click</a> -->
-                    <div class="rating">
-                        <div class="star">
-                            <a href="#"><i class="bx bxs-star"></i></a>
-                            <a href="#"><i class="bx bxs-star"></i></a>
-                            <a href="#"><i class="bx bxs-star"></i></a>
-                            <a href="#"><i class="bx bxs-star"></i></a>
-                            <a href="#"><i class="bx bxs-star"></i></a>
-
-                        </div>
-                        <!-- <div class="review">
-                          <p>{173 Reviews}</p>
-                        </div> -->
-                        
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="row">
-                <!-- <img src="" alt="" id="cor"> -->
-                <div class="courses-text">
-                    <h5>FREE</h5>
-                    <h3>Differential and Difference equation </h3>
-                    <h3><a href="ddevs.html" class="btn" id="clickbtn">solution</a></h3>
-                    <div class="rating">
-                        <div class="star">
-                            <a href="#"><i class="bx bxs-star"></i></a>
-                            <a href="#"><i class="bx bxs-star"></i></a>
-                            <a href="#"><i class="bx bxs-star"></i></a>
-                            <a href="#"><i class="bx bxs-star"></i></a>
-                            <a href="#"><i class="bx bxs-star"></i></a>
-
-                        </div>
-                        <!-- <div class="review">
-                          <p>{112 Reviews}</p>
-                        </div> -->
-                        
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="row">
-                <!-- <img src="./css/courses3.jpg" alt="" id="cor"> -->
-                <div class="courses-text">
-                    <h5>FREE</h5>
-                    <h3>Fundamental of AI & ML </h3>
-                    <h3><a href="foaiml.html" class="btn" id="clickbtn">solution</a></h3>
-                    <div class="rating">
-                        <div class="star">
-                            <a href="#"><i class="bx bxs-star"></i></a>
-                            <a href="#"><i class="bx bxs-star"></i></a>
-                            <a href="#"><i class="bx bxs-star"></i></a>
-                            <a href="#"><i class="bx bxs-star"></i></a>
-                            <a href="#"><i class="bx bxs-star"></i></a>
-
-                        </div>
-                        <!-- <div class="review">
-                          <p>{142 Reviews}</p>
-                        </div> -->
-                        
-                    </div>
-
-                </div>
-
-            </div>
-
-            
-
-            
-        <!-- <div class="main-btn">
-            <a href="#" class="btn"> Start learning </a>
-
-        </div> -->
-    </section>
-    
-    <!-- start cta section  -->
-    <section class="cta">
-        <div class="center-text">
-            <h5>Trusted by </h5>
-             <h2>500+ students</h2>
-
-        </div>
-
-    </section>
-    <!-- start about section  -->
-    <section class="about" id="about">
         
-        <div class="about-text" id="about-text" >
-            <h2>To appreciate other's work is also a Great work</h2>
-            <P>Sharing Knowledge is the only thing that increases as we share to others </P>
-            <a href="#" class="btn"> More </a>
+      </section>
+
+
+<!-- try updated categories section -->
+    <section class="skill-section" id="past-paper">
+        <div class="skill-card">
+          
+          <div class="left-section">
+            <img src="./css/pyqs.png" alt="Skill Banner" class="banner-image">
+          </div>
+          
+          <div class="right-section">
+            <h2>Previous Semester Papers</h2>
+            <p>Practicing past papers is the best way to prepare for any exam.</p>
+            <ul class="features">
+              <li>✔️ Mid-term papers</li>
+              <li>✔️ Term-end papers</li>
+              <li>✔️ Projects & Assignments</li>
+            </ul>
+            <form action="papers.html" method="get">
+              <button class="explore-btn">View Papers</button>
+          </form>
+            <!-- <button class="explore-btn">  Explore Courses </a></button> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- video solution section -->
+      <section class="skill-section" id="past-paper">
+        <div class="skill-card">
+          
+          <div class="left-section">
+            <img src="./css/vidsoln2.png" alt="Skill Banner" class="banner-image">
+          </div>
+          
+          <div class="right-section">
+            <h2>Previous Semester Paper's Soln</h2>
+            <p>We are trying to help through video solution for complex subjects or concepts</p>
+            <ul class="features">
+              <li>✔️ For few subjects</li>
+              <li>✔️ Free</li>
+              <li>✔️ Projects & Assignments</li>
+            </ul>
+            <form action="fewvidsoln.html" method="get">
+              <button class="explore-btn">View Soln</button>
+          </form>
+            <!-- <button class="explore-btn">  Explore Courses </a></button> -->
+          </div>
+        </div>
+      </section>
+
+  <!-- new try section for course -->
+    <section class="mock-test-section">
+        <h1>Development Career Paths</h1>
+        <p> Get hands-on help from our team of specialists and make real-world projects!</p>
+        <div class="card-container">
+          <div class="card">
+            <img src="./css/fron1.png" alt="Product Manager">
+            <h3>Master Frontend</h3>
+            <p>Shape the design people love</p>
+            <a href="develop.html" class="view-btn">View More</a>
+          </div>
+          <div class="card">
+            <img src="./css/fron2.png" alt="Data Analyst">
+            <h3>Master Backend</h3>
+            <p>Turn data into decisions</p>
+            <a href="develop2.html" class="view-btn">View More</a>
+          </div>
+          <div class="card">
+            <img src="./css/fron5.png" alt="Software Developer">
+            <h3>Master Both in One</h3>
+            <p>Code the future, one line at a time</p>
+            <a href="develop3.html" class="view-btn">View More</a>
+          </div>
+          <div class="card">
+            <img src="./css/fron4.png" alt="Social Media Manager">
+            <h3>Project Help</h3>
+            <p>Stop Copy-Paste & Learn for FUTURE </p>
+            <a href="develop4.html" class="view-btn">View More</a>
+          </div>
+
+          <!-- <div class="card">
+            <img src="./css/fron4.png" alt="Social Media Manager">
+            <h3>Resume help</h3>
+            <p>Increase your resume's score </p>
+            <a href="develop4.html" class="view-btn">View More</a>
+          </div> -->
+          
 
         </div>
-         
-        <div class="about-img">
-            <!-- <img src="./css/about-img1.jpg" alt="" id="about-img"> -->
-        </div>
-
-       
-
-    </section> 
-
-    <body>
+      </section>
+    
+    
+<!-- form section   -->
+   <body>
         <div class="contact-container">
             <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
                <div class="contact-left-title">
@@ -228,17 +186,16 @@
         </div>
     </body>
 
-    <!-- start contact section  -->
- <footer class="footer">
+<!-- start contact section  -->
+    <footer class="footer">
      <div class="footer-left">
         <img src="./css/logo1.4.png" id="img13">
-        <p>This platform is designed to help students who are feeling low about their academic semester exams, assignments, and other academic challenges.</p>
+        <p>This platform is here to uplift students facing challenges with semester exams and other academic hurdles, providing the support they need to thrive academically.</p>
 
         <div class="socials">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@restartjee"><i class="fab fa-youtube"></i></a>
+            
+            
         </div>
      </div>
 
